@@ -1,0 +1,1039 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+    /* header start  */
+    header {
+       margin: 10px 0;
+    }
+
+    .logo {
+       font-size: 22px;
+    }
+
+    .ddm {
+       width: 270px;
+       padding: 5px 5px;
+    }
+
+    .ddm[data-bs-popper] {
+       top: 50px;
+       left: 0px;
+       margin-top: 0;
+    }
+
+    .dd_input {
+       height: 40px;
+    }
+
+    .dd_btn {
+       height: 40px;
+    }
+
+    /* header end  */
+
+    /*banner start*/
+    .b_content {
+       margin: 90px 0;
+       text-align: center;
+    }
+
+    .b_h1 {
+       font-size: 26px;
+    }
+
+    .b_p {
+       margin: 26px 0;
+       line-height: 26px;
+    }
+
+    .common_btn {
+       padding: 12px 20px;
+    }
+
+    .b_btn span {
+       margin-left: 6px;
+    }
+
+    .bin_btn {
+       /*	text-align: center;*/
+    }
+
+    /*service start*/
+    .c_padd {
+       padding-bottom: 60px;
+    }
+
+    .c_pipe {
+       height: 40px;
+    }
+
+    .s_p {
+       margin-bottom: 30px;
+    }
+
+    .cm_h1 {
+       margin: 26px 0 0;
+       font-size: 24px;
+    }
+
+    .s_article p {
+       margin-bottom: 20px !important;
+       line-height: 24px;
+    }
+
+    .s_service {
+       margin: 40px 0 0;
+       padding: 60px 12px 30px;
+    }
+
+    .s_icon {
+       margin: -87px auto 0;
+       width: 54px;
+       font-size: 52px;
+    }
+
+    .sp_btn span {
+       margin-left: 6px;
+    }
+
+    /*about start*/
+    .a_image {
+       margin-bottom: 36px;
+       padding: 0;
+    }
+
+    .a_content {
+       text-align: center;
+    }
+
+    .a_h1 {
+       font-size: 24px;
+    }
+
+    .a_p1 {
+       margin: 26px 0;
+       line-height: 24px;
+    }
+
+    /*portfolio start*/
+    .work_sample {
+       margin-top: 30px;
+    }
+
+    .ws_li {
+       margin-top: 10px;
+    }
+
+    .ws_btn {
+       margin: 0 4px;
+       padding: 6px 10px;
+    }
+
+    .w_box {
+       margin-top: 26px;
+    }
+
+    .w_boxcont {
+       padding-left: 0;
+       text-align: center;
+    }
+
+    .w_boxicon {
+       font-size: 35px;
+       top: 35%;
+       transform: translate(-50%, -35%);
+    }
+
+    /*hand over start*/
+    .ho_margin {
+       margin-bottom: 5px;
+    }
+
+    .s_handicon {
+       justify-content: center;
+    }
+
+    .s_handover {
+       margin: 44px 18px 0;
+       text-align: center;
+    }
+
+    .s_handicon i {
+       font-size: 32px;
+    }
+
+    .s_handh2 {
+       margin-left: 10px;
+       font-size: 17px;
+    }
+
+    .s_handp {
+       margin: 20px 0;
+       padding: 0 20px;
+       line-height: 24px;
+    }
+
+    .s_handpipe {
+       margin: 0 auto;
+       width: 88%;
+    }
+
+    /*team start*/
+    .s_team {
+       margin: 40px 10px 0;
+    }
+
+    .teamsocial {
+       top: 60px;
+    }
+
+    .teamsocial ul li a i {
+       font-size: 22px;
+    }
+
+    .tperson_content {
+       padding: 16px 0 16px 0;
+       text-align: center;
+    }
+
+    /*price start*/
+    .price_box {
+       padding: 0 20px;
+    }
+
+    .pr_mb {
+       margin-bottom: 20px;
+    }
+
+    .s_price {
+       margin-top: 40px;
+       padding: 0 26px 40px;
+    }
+
+    .sp_h3 {
+       font-size: 16px;
+       left: 18px;
+    }
+
+    .sp_h2 {
+       font-size: 28px;
+    }
+
+    .p_fiture {
+       margin: 30px 0;
+    }
+
+    .p_fiture p {
+       margin-bottom: 15px;
+    }
+
+    /*cta start*/
+    .cta {
+       margin-bottom: 60px;
+    }
+
+    .cta_content {
+       margin-bottom: 20px;
+       text-align: center;
+    }
+
+    .ctah2 {
+       font-size: 16px;
+    }
+
+    .cta_btn {
+       text-align: center !important;
+    }
+
+    /*testimony start*/
+    .q_icon {
+       top: 22px;
+       left: 18px;
+    }
+
+    .q_icon i {
+       font-size: 30px;
+    }
+
+    .t_content {
+       padding: 0;
+    }
+
+    .tes_content {
+       padding: 24px 5px 28px;
+       text-align: center;
+    }
+
+    .tesc_h3 {
+       margin: 10px 0;
+    }
+
+    .tesc_p1 {
+       margin: 20px 0 0;
+    }
+
+    /*contact start*/
+    .cfin_1 input {
+       width: 47%;
+    }
+
+    .cfin_1 input:first-child {
+       margin-right: 10px;
+    }
+
+    .c_form {
+       margin-top: 50px;
+    }
+
+    .c_form input {
+       padding: 10px 12px;
+    }
+
+    .c_formh1 {
+       padding: 0 6px;
+       top: -67px;
+       font-size: 26px;
+    }
+
+    .cfin_3 {
+       padding: 30px 12px !IMPORTANT;
+    }
+
+    .form_btn {
+       margin: 36px 0;
+    }
+
+    /*footer start*/
+    .social_icon {
+       margin-bottom: 60px;
+    }
+
+    /*footer start*/
+    .social_cont p {
+       margin: 25px 0;
+    }
+
+    .social_icon {
+       margin-bottom: 60px;
+    }
+
+    .social_icon ul li a i {
+       padding: 6px 6px;
+       font-size: 18px;
+    }
+
+    .fb_p {
+       text-align: center;
+    }
+
+    .fb_link {
+       margin-bottom: 20px;
+       text-align: center;
+    }
+
+    .fb_link ul li a {
+       margin: 0 10px;
+    }
+
+    .fb_p p {
+       font-size: 16px;
+       padding: 0 24px;
+    }
+
+    .footer_bottom {
+       padding: 40px 0;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start  */
+    header {
+       margin: 10px 0;
+    }
+
+    .logo {
+       font-size: 26px;
+    }
+
+    .ddm {
+       padding: 5px 5px;
+    }
+
+    .ddm[data-bs-popper] {
+       top: -5px;
+       left: 110px;
+       margin-top: 0;
+    }
+
+    .dd_input {
+       height: 40px;
+    }
+
+    .dd_btn {
+       height: 40px;
+    }
+
+    /* header end  */
+    /*banner start*/
+    .b_content {
+       margin: 50px 0;
+       text-align: center;
+    }
+
+    .b_h1 {
+       font-size: 40px;
+    }
+
+    .b_p {
+       margin: 30px 0;
+       padding: 0 20px;
+    }
+
+    .s_btn {
+       padding: 12px 20px;
+    }
+
+    .b_btn span {
+       margin-left: 8px;
+    }
+
+    .bin_btn {
+       /*	text-align: center;*/
+    }
+
+    /*service start*/
+    .c_padd {
+       padding-bottom: 60px;
+    }
+
+    .c_pipe {
+       height: 40px;
+    }
+
+    .cm_h1 {
+       margin: 26px 0 0;
+       font-size: 26px;
+    }
+
+    .s_article p {
+       margin-bottom: 30px !important;
+       line-height: 26px;
+    }
+
+    .s_service {
+       margin: 40px 40px 0;
+       padding: 60px 36px 35px;
+    }
+
+    .s_icon {
+       margin: -90px auto 0;
+    }
+
+    .s_h2 {
+       margin-top: 16px;
+    }
+
+    .sp_btn span {
+       margin-left: 6px;
+    }
+
+    /*about start*/
+    .a_image {
+       margin-bottom: 36px;
+       padding: 0 40px;
+    }
+
+    .a_content {
+       text-align: center;
+    }
+
+    .a_h1 {
+       font-size: 26px;
+    }
+
+    .a_p1 {
+       margin: 26px 24px;
+       line-height: 24px;
+    }
+
+    /*portfolio start*/
+    .work_sample {
+       margin-top: 30px;
+    }
+
+    .ws_btn {
+       margin: 0 3px;
+       padding: 6px 8px;
+    }
+
+    .w_box {
+       margin-top: 20px;
+    }
+
+    .w_boxicon {
+       font-size: 32px;
+       top: 30%;
+       transform: translate(-50%, -30%);
+    }
+
+    /*hand over start*/
+    .ho_margin {
+       margin-bottom: 14px;
+    }
+
+    .s_handicon i {
+       font-size: 34px;
+    }
+
+    .s_handh2 {
+       margin-left: 10px;
+       font-size: 17px;
+    }
+
+    .s_handp {
+       margin: 20px 0;
+    }
+
+    /*team start*/
+    .s_team {
+       margin-top: 30px;
+    }
+
+    .teamsocial {
+       top: 50px;
+    }
+
+    .teamsocial ul li a i {
+       font-size: 22px;
+    }
+
+    .tperson_content {
+       padding: 16px 0 16px 0;
+       text-align: center;
+    }
+
+    /*price start*/
+    .pr_mb {
+       margin-bottom: 20px;
+    }
+
+    .s_price {
+       margin-top: 40px;
+       padding: 0 20px 40px;
+    }
+
+    .sp_h3 {
+       font-size: 16px;
+    }
+
+    .sp_h2 {
+       font-size: 30px;
+    }
+
+    .p_fiture {
+       margin: 30px 0;
+    }
+
+    .p_fiture p {
+       margin-bottom: 16px;
+    }
+
+    /*cta start*/
+    .cta {
+       margin-bottom: 60px;
+    }
+
+    .cta_content {
+       margin-bottom: 20px;
+       text-align: center;
+    }
+
+    .cta_btn {
+       text-align: center !important;
+    }
+
+    /*testimony start*/
+    .q_icon {
+       top: 34px;
+       left: 24px;
+    }
+
+    .q_icon i {
+       font-size: 34px;
+    }
+
+    .t_content {
+       padding: 50px 40px;
+    }
+
+    .tes_content {
+       padding: 30px 0 0;
+       text-align: center;
+    }
+
+    .tesc_h3 {
+       margin: 12px 0;
+    }
+
+    .tesc_p1 {
+       margin: 30px 10px 0;
+    }
+
+    /*contact start*/
+    .cfin_1 input {
+       width: 45%;
+    }
+
+    .cfin_1 input:first-child {
+       margin-right: 38px;
+    }
+
+    .c_form {
+       margin-top: 60px;
+    }
+
+    .c_formh1 {
+       top: -78px;
+    }
+
+    .cfin_3 {
+       padding: 36px 15px !important;
+    }
+
+    .form_btn {
+       margin: 40px 0;
+    }
+
+    /*footer start*/
+    .social_cont p {
+       margin: 25px 0;
+       padding: 0 36px;
+    }
+
+    .social_icon {
+       margin-bottom: 60px;
+    }
+
+    .social_icon ul li a i {
+       padding: 8px 10px;
+       font-size: 18px;
+    }
+
+    .fb_p {
+       text-align: center;
+    }
+
+    .fb_link {
+       margin-bottom: 20px;
+       text-align: center;
+    }
+
+    .fb_link ul li a {
+       margin: 0 14px;
+    }
+
+    .footer_bottom {
+       padding: 40px 0;
+    }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+    header {
+       margin: 10px 0;
+    }
+
+    .ddm[data-bs-popper] {
+       top: -5px;
+       left: 110px;
+       margin-top: 0;
+    }
+
+    .dd_input {
+       height: 40px;
+    }
+
+    .dd_btn {
+       height: 40px;
+    }
+
+    /* header end  */
+
+    /*banner start*/
+    .b_content {
+       margin: 120px 0;
+    }
+
+    .b_h1 {
+       font-size: 40px;
+    }
+
+    .b_p {
+       margin: 30px 50px 30px 0;
+    }
+
+    .s_btn {
+       padding: 12px 20px;
+    }
+
+    /*service start*/
+    .g_space {
+       --bs-gutter-x: 30px;
+    }
+
+    .c_padd {
+       padding-bottom: 80px;
+    }
+
+    .c_pipe {
+       height: 46px;
+    }
+
+    .cm_h1 {
+       margin: 28px 0 0;
+       font-size: 28px;
+    }
+
+    .s_article p {
+       margin-bottom: 40px !important;
+       line-height: 28px;
+    }
+
+    .s_service {
+       margin-top: 40px;
+       padding: 60px 30px 35px;
+    }
+
+    .s_icon {
+       margin: -90px auto 0;
+    }
+
+    .s_h2 {
+       margin-top: 16px;
+    }
+
+    .s_p {
+       margin-bottom: 34px;
+    }
+
+    /*about start*/
+    .a_image {
+       margin-bottom: 40px;
+       padding: 0 85px;
+    }
+
+    .a_content {
+       text-align: center;
+    }
+
+    .a_h1 {
+       font-size: 26px;
+    }
+
+    .a_p1 {
+       padding: 0 50px;
+    }
+
+    /*portfolio start*/
+    .work_sample {
+       margin-top: 40px;
+    }
+
+    .ws_btn {
+       margin: 0 5px;
+    }
+
+    /*hand over start*/
+    .ho_margin {
+       margin-bottom: 20px;
+    }
+
+    .s_handicon i {
+       font-size: 36px;
+    }
+
+    .s_handh2 {
+       margin-left: 10px;
+       font-size: 16px;
+    }
+
+    .s_handp {
+       margin: 30px 0;
+    }
+
+    /*team start*/
+    .s_team {
+       margin: 70px 14px 0;
+    }
+
+    .teamsocial {
+       top: 70px;
+    }
+
+    .teamsocial ul li a i {
+       font-size: 22px;
+    }
+
+    .tperson_content {
+       padding: 16px 0 16px 0;
+       text-align: center;
+    }
+
+    /*price start*/
+    .pr_mb {
+       margin-bottom: 20px;
+    }
+
+    .price_box {
+       padding: 0 20px;
+    }
+
+    .s_price {
+       margin-top: 40px;
+    }
+
+    /*cta start*/
+    .cta {
+       margin-bottom: 80px;
+       padding: 40px 40px;
+    }
+
+    /*testimony start*/
+    .q_icon i {
+       font-size: 30px;
+    }
+
+    .t_content {
+       padding: 30px 20px;
+    }
+
+    .tesc_h2 {
+       font-size: 17px;
+    }
+
+    .tesc_h3 {
+       margin: 10px 0;
+       font-size: 17px;
+    }
+
+    .tesc_h4 {
+       font-size: 17px;
+    }
+
+    .tesc_p1 {
+       margin-top: 16px;
+       font-size: 15px;
+       line-height: 22px;
+    }
+
+    /*contact start*/
+    .c_form {
+       margin-top: 70px;
+    }
+
+    .c_formh1 {
+       top: -90px;
+    }
+
+    .cfin_3 {
+       padding: 40px 15px !IMPORTANT;
+    }
+
+    /*footer start*/
+    .social_cont p {
+       margin: 30px 0;
+    }
+
+    .social_icon {
+       margin-bottom: 75px;
+    }
+
+    .social_icon ul li a i {
+       padding: 8px 10px;
+       font-size: 22px;
+    }
+
+    .fb_p {
+       text-align: center;
+    }
+
+    .fb_link {
+       margin-bottom: 20px;
+       text-align: center;
+    }
+
+    .fb_link ul li a {
+       margin: 0 14px;
+    }
+
+    .footer_bottom {
+       padding: 40px 0;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*header start*/
+    header {
+       padding: 20px 0;
+    }
+
+    /*banner start*/
+    .b_content {
+       margin: 106px 0;
+    }
+
+    /*service start*/
+    .s_service {
+       margin-top: 80px;
+       padding: 60px 0 35px;
+    }
+
+    .s_icon {
+       margin: -90px auto 0;
+    }
+
+    .s_p {
+       margin-bottom: 34px;
+    }
+
+    /*about start*/
+    .a_image {
+       padding-right: 20px;
+    }
+
+    /*postfolio start*/
+    .work_sample {
+       margin-top: 50px;
+    }
+
+    .ws_btn {
+       margin: 0 8px;
+    }
+
+    /*team start*/
+    .s_team {
+       margin-top: 80px;
+    }
+
+    .tperson_content {
+       padding: 16px 0 16px 10px;
+    }
+
+    .s_teamh2 {
+       font-size: 16px;
+    }
+
+    /*price start*/
+    .s_price {
+       padding: 0 16px 40px;
+    }
+
+    .s_btn {
+       padding: 14px 36px;
+    }
+
+    /*testimony start*/
+    .q_icon {
+       top: 16px;
+       left: 14px;
+    }
+
+    .q_icon i {
+       font-size: 36px;
+    }
+
+    .tesc_h3 {
+       margin: 14px 0;
+    }
+
+    .tesc_p1 {
+       margin-top: 26px;
+    }
+
+    /*footer start*/
+    .social_icon {
+       margin-bottom: 80px;
+    }
+
+    .footer_bottom {
+       padding: 45px 0;
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /*banner start*/
+    .b_p {
+       padding-right: 80px;
+    }
+
+    /*about start*/
+    .a_image {
+       padding-right: 20px;
+    }
+
+    /*team start*/
+    .teamsocial {
+       top: 50px;
+    }
+
+    /*testimony start*/
+    .q_icon {
+       top: 28px;
+       left: 22px;
+    }
+
+    .tes_content {
+       padding: 0 20px;
+    }
+
+    .tesc_p2 {
+       margin: 36px 0 0;
+    }
+ }
+
+ /* Extra extra large devices (extra large desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+
+    /*banner start*/
+    .b_p {
+       padding-right: 130px;
+    }
+
+    /*about start*/
+    .a_image {
+       padding-right: 20px;
+    }
+
+    /*hand over start*/
+    .s_handp {
+       font-size: 15px;
+    }
+
+    /*team start*/
+    .teamsocial {
+       top: 70px;
+    }
+
+    /*testimony start*/
+    .q_icon {
+       top: 34px;
+       left: 28px;
+    }
+
+    .tes_content {
+       padding: 0 20px;
+    }
+
+    .tesc_p2 {
+       margin: 36px 0 0;
+    }
+
+ }
